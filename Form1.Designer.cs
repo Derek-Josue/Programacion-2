@@ -1,6 +1,6 @@
 ﻿namespace Programacion_2
 {
-    partial class Form1
+    partial class frmRegistro
     {
         /// <summary>
         /// Required designer variable.
@@ -118,7 +118,7 @@
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
-            // Form1
+            // frmRegistro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -132,8 +132,8 @@
             this.Controls.Add(this.lblEdad);
             this.Controls.Add(this.lblApellidos);
             this.Controls.Add(this.lblNombre);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmRegistro";
+            this.Text = "Registro de usuario";
             this.ResumeLayout(false);
             this.PerformLayout();
 

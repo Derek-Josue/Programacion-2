@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Programacion_2
 {
-    public partial class Form1 : Form
+    public partial class frmRegistro : Form
     {
-        public Form1()
+        public frmRegistro()
         {
             InitializeComponent();
         }
