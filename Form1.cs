@@ -40,5 +40,10 @@ namespace Programacion_2
         {
             this.Close();
         }
+
+        private void frmRegistro_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -42,9 +42,10 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(164, 101);
+            this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.Location = new System.Drawing.Point(157, 97);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(56, 16);
+            this.lblNombre.Size = new System.Drawing.Size(81, 25);
             this.lblNombre.TabIndex = 0;
             this.lblNombre.Text = "Nombre";
             this.lblNombre.Click += new System.EventHandler(this.label1_Click);
@@ -52,47 +53,50 @@
             // lblApellidos
             // 
             this.lblApellidos.AutoSize = true;
-            this.lblApellidos.Location = new System.Drawing.Point(164, 162);
+            this.lblApellidos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblApellidos.Location = new System.Drawing.Point(157, 155);
             this.lblApellidos.Name = "lblApellidos";
-            this.lblApellidos.Size = new System.Drawing.Size(64, 16);
+            this.lblApellidos.Size = new System.Drawing.Size(92, 25);
             this.lblApellidos.TabIndex = 1;
             this.lblApellidos.Text = "Apellidos";
             // 
             // lblEdad
             // 
             this.lblEdad.AutoSize = true;
+            this.lblEdad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEdad.Location = new System.Drawing.Point(164, 217);
             this.lblEdad.Name = "lblEdad";
-            this.lblEdad.Size = new System.Drawing.Size(40, 16);
+            this.lblEdad.Size = new System.Drawing.Size(58, 25);
             this.lblEdad.TabIndex = 2;
             this.lblEdad.Text = "Edad";
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(244, 101);
+            this.txtNombre.Location = new System.Drawing.Point(260, 100);
             this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(100, 22);
+            this.txtNombre.Size = new System.Drawing.Size(121, 22);
             this.txtNombre.TabIndex = 3;
             // 
             // txtApellidos
             // 
-            this.txtApellidos.Location = new System.Drawing.Point(244, 159);
+            this.txtApellidos.Location = new System.Drawing.Point(260, 159);
             this.txtApellidos.Name = "txtApellidos";
-            this.txtApellidos.Size = new System.Drawing.Size(100, 22);
+            this.txtApellidos.Size = new System.Drawing.Size(121, 22);
             this.txtApellidos.TabIndex = 4;
             // 
             // txtEdad
             // 
-            this.txtEdad.Location = new System.Drawing.Point(244, 217);
+            this.txtEdad.Location = new System.Drawing.Point(260, 217);
             this.txtEdad.Name = "txtEdad";
-            this.txtEdad.Size = new System.Drawing.Size(100, 22);
+            this.txtEdad.Size = new System.Drawing.Size(121, 22);
             this.txtEdad.TabIndex = 5;
             // 
             // btnMostrar
             // 
-            this.btnMostrar.Location = new System.Drawing.Point(167, 285);
+            this.btnMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMostrar.Location = new System.Drawing.Point(151, 285);
             this.btnMostrar.Name = "btnMostrar";
-            this.btnMostrar.Size = new System.Drawing.Size(75, 23);
+            this.btnMostrar.Size = new System.Drawing.Size(91, 35);
             this.btnMostrar.TabIndex = 6;
             this.btnMostrar.Text = "Mostrar";
             this.btnMostrar.UseVisualStyleBackColor = true;
@@ -100,9 +104,10 @@
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.Location = new System.Drawing.Point(285, 285);
+            this.btnLimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpiar.Location = new System.Drawing.Point(290, 288);
             this.btnLimpiar.Name = "btnLimpiar";
-            this.btnLimpiar.Size = new System.Drawing.Size(75, 23);
+            this.btnLimpiar.Size = new System.Drawing.Size(91, 35);
             this.btnLimpiar.TabIndex = 7;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
@@ -110,9 +115,10 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(402, 285);
+            this.btnSalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSalir.Location = new System.Drawing.Point(425, 292);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(75, 23);
+            this.btnSalir.Size = new System.Drawing.Size(91, 31);
             this.btnSalir.TabIndex = 8;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
@@ -134,6 +140,7 @@
             this.Controls.Add(this.lblNombre);
             this.Name = "frmRegistro";
             this.Text = "Registro de usuario";
+            this.Load += new System.EventHandler(this.frmRegistro_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
