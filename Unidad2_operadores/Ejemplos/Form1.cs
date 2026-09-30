@@ -1,0 +1,45 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Unidad2_operadores
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void btnMostrarValidacion_Click(object sender, EventArgs e)
+        {
+            if (int.TryParse(txtEdad.Text, out int edad))
+            {
+                if (edad >= 18)
+                {
+                    MessageBox.Show("Eres mayor de edad.");
+                }
+                else
+                {
+                    MessageBox.Show("Eres menor de edad.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Por favor, ingresa un número válido para la edad.");
+            }
+
+        }
+
+        private void txtEdad_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
