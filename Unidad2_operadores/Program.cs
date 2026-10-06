@@ -18,8 +18,11 @@ namespace Unidad2_operadores
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            // Application.Run(new EjemploOperadores());
+            // Application.Run(new Colores());
+
             Application.Run(new Tarea_Unidad2_CSharp());
-            
+
         }
     }
 }

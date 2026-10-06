@@ -17,10 +17,6 @@ namespace Unidad2_operadores.Ejemplos
             InitializeComponent();
         }
 
-        private void Colores_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -35,5 +31,7 @@ namespace Unidad2_operadores.Ejemplos
                 this.BackColor = colorDialog1.Color;
             }
         }
+
+        
     }
 }

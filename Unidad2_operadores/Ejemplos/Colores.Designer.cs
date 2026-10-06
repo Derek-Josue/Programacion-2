@@ -55,7 +55,7 @@
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(172, 24);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -64,10 +64,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(721, 332);
-            this.ContextMenuStrip = this.contextMenuStrip1;
             this.Name = "Colores";
             this.Text = "Colores";
-            this.Load += new System.EventHandler(this.Colores_Load);
             this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
 
