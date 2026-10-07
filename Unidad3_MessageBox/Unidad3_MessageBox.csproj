@@ -46,16 +46,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ejemplos\frmMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplos\frmMessageBox.Designer.cs">
+      <DependentUpon>frmMessageBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ejemplos\practicaSwitch.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Ejemplos\practicaSwitch.Designer.cs">
       <DependentUpon>practicaSwitch.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejercicios_Practicos\ConfirmaciondeAccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios_Practicos\ConfirmaciondeAccion.Designer.cs">
+      <DependentUpon>ConfirmaciondeAccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicios_Practicos\frmSelectordeMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios_Practicos\frmSelectordeMenu.Designer.cs">
+      <DependentUpon>frmSelectordeMenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Ejemplos\frmMessageBox.resx">
+      <DependentUpon>frmMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ejemplos\practicaSwitch.resx">
       <DependentUpon>practicaSwitch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicios_Practicos\ConfirmaciondeAccion.resx">
+      <DependentUpon>ConfirmaciondeAccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicios_Practicos\frmSelectordeMenu.resx">
+      <DependentUpon>frmSelectordeMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

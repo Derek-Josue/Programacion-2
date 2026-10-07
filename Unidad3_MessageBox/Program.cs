@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Unidad3_MessageBox.Ejemplos;
+using Unidad3_MessageBox.Ejercicios_Practicos;
 
 namespace Unidad3_MessageBox
 {
@@ -17,7 +18,11 @@ namespace Unidad3_MessageBox
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new practicaSwitch ()); 
+            //Application.Run(new practicaSwitch ()); 
+            //Application.Run(new frmMessageBox());
+            Application.Run(new frmSelectordeMenu()); 
+
+
         }
     }
 }
