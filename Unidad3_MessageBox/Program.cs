@@ -20,7 +20,7 @@ namespace Unidad3_MessageBox
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new practicaSwitch ()); 
             //Application.Run(new frmMessageBox());
-            Application.Run(new frmSelectordeMenu()); 
+            Application.Run(new Switch_Case()); 
 
 
         }

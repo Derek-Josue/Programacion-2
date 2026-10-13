@@ -70,6 +70,12 @@
     <Compile Include="Ejercicios_Practicos\frmSelectordeMenu.Designer.cs">
       <DependentUpon>frmSelectordeMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejercicios_Practicos\Switch_Case.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios_Practicos\Switch_Case.Designer.cs">
+      <DependentUpon>Switch_Case.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Ejemplos\frmMessageBox.resx">
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Ejercicios_Practicos\frmSelectordeMenu.resx">
       <DependentUpon>frmSelectordeMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicios_Practicos\Switch_Case.resx">
+      <DependentUpon>Switch_Case.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
