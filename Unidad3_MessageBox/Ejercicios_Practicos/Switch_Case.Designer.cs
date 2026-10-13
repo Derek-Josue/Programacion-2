@@ -35,7 +35,7 @@
             // 
             // txtNúmero
             // 
-            this.txtNúmero.Location = new System.Drawing.Point(225, 141);
+            this.txtNúmero.Location = new System.Drawing.Point(232, 95);
             this.txtNúmero.Name = "txtNúmero";
             this.txtNúmero.Size = new System.Drawing.Size(100, 22);
             this.txtNúmero.TabIndex = 0;
@@ -43,7 +43,7 @@
             // lblOpcion
             // 
             this.lblOpcion.AutoSize = true;
-            this.lblOpcion.Location = new System.Drawing.Point(46, 144);
+            this.lblOpcion.Location = new System.Drawing.Point(48, 98);
             this.lblOpcion.Name = "lblOpcion";
             this.lblOpcion.Size = new System.Drawing.Size(161, 16);
             this.lblOpcion.TabIndex = 1;
@@ -51,7 +51,7 @@
             // 
             // btnMostrar
             // 
-            this.btnMostrar.Location = new System.Drawing.Point(381, 141);
+            this.btnMostrar.Location = new System.Drawing.Point(384, 98);
             this.btnMostrar.Name = "btnMostrar";
             this.btnMostrar.Size = new System.Drawing.Size(75, 23);
             this.btnMostrar.TabIndex = 2;
@@ -63,7 +63,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(499, 233);
             this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.lblOpcion);
             this.Controls.Add(this.txtNúmero);
