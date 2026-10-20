@@ -47,16 +47,62 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ejemplos\Persona.cs" />
-    <Compile Include="frmPersonaPOO.cs">
+    <Compile Include="Ejemplos\frmErrorProvider.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmPersonaPOO.Designer.cs">
+    <Compile Include="Ejemplos\frmErrorProvider.Designer.cs">
+      <DependentUpon>frmErrorProvider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplos\frmPersonaPOO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplos\frmPersonaPOO.Designer.cs">
       <DependentUpon>frmPersonaPOO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejemplos\frmValidadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplos\frmValidadores.Designer.cs">
+      <DependentUpon>frmValidadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicios_Practicos\Clase_ejercicio1.cs" />
+    <Compile Include="Ejercicios_Practicos\Clase_y_Objeto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios_Practicos\Clase_y_Objeto.Designer.cs">
+      <DependentUpon>Clase_y_Objeto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicios_Practicos\Propiedades_Get_Set.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios_Practicos\Propiedades_Get_Set.Designer.cs">
+      <DependentUpon>Propiedades_Get_Set.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ejercicios_Practicos\Validacion_con_errorprovider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejercicios_Practicos\Validacion_con_errorprovider.Designer.cs">
+      <DependentUpon>Validacion_con_errorprovider.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmPersonaPOO.resx">
+    <EmbeddedResource Include="Ejemplos\frmErrorProvider.resx">
+      <DependentUpon>frmErrorProvider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejemplos\frmPersonaPOO.resx">
       <DependentUpon>frmPersonaPOO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejemplos\frmValidadores.resx">
+      <DependentUpon>frmValidadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicios_Practicos\Clase_y_Objeto.resx">
+      <DependentUpon>Clase_y_Objeto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicios_Practicos\Propiedades_Get_Set.resx">
+      <DependentUpon>Propiedades_Get_Set.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejercicios_Practicos\Validacion_con_errorprovider.resx">
+      <DependentUpon>Validacion_con_errorprovider.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
